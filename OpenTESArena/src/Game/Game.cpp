@@ -44,6 +44,8 @@
 #include "components/utilities/TextLinesFile.h"
 #include "components/vfs/manager.hpp"
 
+#include "components/storefront/SteamKeyValueFile.h"
+
 namespace
 {
 	bool TryMakeValidArenaExePath(const std::string &vfsFolderPath, std::string *outExePath, bool *outIsFloppyDiskVersion)
